@@ -1,5 +1,7 @@
 # Gesture Spellcaster
 
+> Public source preview: see [PUBLICATION.md](PUBLICATION.md) for actual checks, known failures and runtime limits.
+
 Игра на Python с распознаванием жестов через $1 Recognizer. Отбивайтесь от волн врагов, рисуя руны мышью!
 
 ## Установка
@@ -92,3 +94,8 @@ elif rune == "NEW_RUNE":
 - Rotation-invariant matching (поиск лучшего угла в диапазоне ±45°)
 - Нормализация: resample до 64 точек, масштабирование, поворот
 - Порог уверенности: 0.75 (жесты с меньшим score не распознаются)
+
+
+## Public source status — 2026-10-29
+
+See [PUBLICATION.md](PUBLICATION.md) for the current verification scope, prototype limitations and runtime boundaries. Earlier audit checklists describe historical work.
